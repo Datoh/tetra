@@ -474,7 +474,7 @@ impl NineSlice {
 /// [`State`](crate::State) struct rather than recreating them each frame.
 #[derive(Debug, Clone)]
 pub struct ImageData {
-    data: RgbaImage,
+    pub data: RgbaImage,
 }
 
 impl ImageData {
